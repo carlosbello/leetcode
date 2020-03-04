@@ -38,4 +38,30 @@ fun levelOrderTraversal(root: TreeNode?): List<List<Int>> =
             })
         }
         result
-    } ?: emptyList<List<Int>>()
+    } ?: emptyList()
+
+/**
+ * Return the list of value by level, including nulls in not available values.
+ *
+ * For example, given the tree:
+ *     3
+ *    / \
+ *   9  20
+ *     /  \
+ *    15  7
+ *  levelOrderTraversal(tree) = [[3], [9, 20], [15, 7]]
+ *  but
+ *  levelOrderTraversalIncludingNulls(tree) = [[3], [9, 20], [null, null, 15, 7], [null, null, null, null]]
+ */
+fun levelOrderTraversalIncludingNulls(root: TreeNode?): List<List<Int?>> =
+    root?.let {
+        var toVisit = listOf<TreeNode?>(root)
+        val result = MutableList<List<Int?>>(0) { listOf() }
+        while (toVisit.isNotEmpty()) {
+            result.add(toVisit.map { it?.`val` })
+            toVisit = toVisit.filterNotNull().fold(listOf(), { nodeList, treeNode ->
+                nodeList + listOf(treeNode.left, treeNode.right)
+            })
+        }
+        result
+    } ?: emptyList<List<Int?>>()

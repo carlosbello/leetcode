@@ -1,64 +1,44 @@
 package org.carlosbello.datastructures.binarytree
 
-import junit.framework.TestCase
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.Arguments
+import org.junit.jupiter.params.provider.MethodSource
+import java.util.stream.Stream
+import kotlin.test.assertEquals
 
-class TraversalsKtTest : TestCase() {
-    /**
-     *  1
-     *   \
-     *    2
-     *   /
-     *  3
-     */
-    private val tree = TreeNode(1, null, TreeNode(2, TreeNode(3)))
+class TraversalsKtTest {
 
-    fun testPreorderTraversal() {
-        // given
-        val expectedTraversal = listOf(1, 2, 3)
-
+    @ParameterizedTest(name = "Test {0} returns {1} when {3}")
+    @MethodSource("traversalTestCases")
+    fun testTraversal(traversalFn: (TreeNode?) -> List<Int>, expectedTraversal: List<Int>, givenTree: TreeNode?, treeType: String) {
         // when
-        val traversal = preorderTraversal(tree)
+        val traversal = traversalFn(givenTree)
 
         // then
         assertEquals(expectedTraversal, traversal)
     }
 
-    fun testInorderTraversal() {
-        // given
-        val expectedTraversal = listOf(1, 3, 2)
-
+    @ParameterizedTest(name = "Test {0} returns {1} when {3}")
+    @MethodSource("levelOrderTraversalTestCases")
+    fun testLevelOrderTraversal(levelOrderTraversalFn: (TreeNode?) -> List<List<Int>>, expectedTraversal:List<List<Int>>, givenTree: TreeNode?, treeType: String) {
         // when
-        val traversal = inorderTraversal(tree)
+        val traversal = levelOrderTraversalFn(givenTree)
 
         // then
         assertEquals(expectedTraversal, traversal)
     }
 
-    fun testPostorderTraversal() {
-        // given
-        val expectedTraversal = listOf(3, 2, 1)
+    companion object {
+        /**
+         *  1
+         *   \
+         *    2
+         *   /
+         *  3
+         */
+        val tree1 = TreeNode(1, null, TreeNode(2, TreeNode(3)))
+        val tree1Representation = "[1, null, 2, 3, null]"
 
-        // when
-        val traversal = postorderTraversal(tree)
-
-        // then
-        assertEquals(expectedTraversal, traversal)
-    }
-
-    fun testLevelOrderTraversalWhenNullTree() {
-        // given
-        val tree = null
-        val expectedTraversal = emptyList<List<Int>>()
-
-        // when
-        val traversal = levelOrderTraversal(tree)
-
-        // then
-        assertEquals(expectedTraversal, traversal)
-    }
-
-    fun testLevelOrderTraversalWhenSomeTree() {
-        // given
         /**
          *     3
          *    / \
@@ -66,22 +46,39 @@ class TraversalsKtTest : TestCase() {
          *     /  \
          *    15  7
          */
-        val tree = TreeNode(3,
+        val tree2 = TreeNode(3,
             TreeNode(9),
             TreeNode(20,
                 TreeNode(15), TreeNode(7)
             )
         )
-        val expectedTraversal = listOf(
-            listOf(3),
-            listOf(9, 20),
-            listOf(15, 7)
-        )
+        val tree2Representation = "[3, 9, null, null, 20, 15, 17]"
 
-        // when
-        val traversal = levelOrderTraversal(tree)
 
-        // then
-        assertEquals(expectedTraversal, traversal)
+        @JvmStatic
+        fun traversalTestCases(): Stream<Arguments> =
+            Stream.of(
+                Arguments.of(::preorderTraversal, listOf(1, 2, 3), tree1, tree1Representation),
+                Arguments.of(::inorderTraversal, listOf(1, 3, 2), tree1, tree1Representation),
+                Arguments.of(::postorderTraversal, listOf(3, 2, 1), tree1, tree1Representation)
+            )
+
+        @JvmStatic
+        fun levelOrderTraversalTestCases(): Stream<Arguments> =
+            Stream.of(
+                Arguments.of(::levelOrderTraversal, emptyList<List<Int>>(), null, "null"),
+                Arguments.of(::levelOrderTraversal, listOf(
+                    listOf(3),
+                    listOf(9, 20),
+                    listOf(15, 7)
+                ), tree2, tree2Representation),
+                Arguments.of(::levelOrderTraversalIncludingNulls, emptyList<List<Int>>(), null, "null"),
+                Arguments.of(::levelOrderTraversalIncludingNulls, listOf(
+                    listOf(3),
+                    listOf(9, 20),
+                    listOf(null, null, 15, 7),
+                    listOf(null, null, null, null)
+                ), tree2, tree2Representation)
+            )
     }
 }
