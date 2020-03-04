@@ -71,3 +71,17 @@ fun isSymmetric3(root: TreeNode?): Boolean {
 
     return root == null || areSymmetric(root.left, root.right)
 }
+
+/**
+ * Path Sum https://leetcode.com/problems/path-sum/
+ */
+fun isLeaf(root: TreeNode?) =
+    root != null && root.left == null && root.right == null
+
+fun hasPathSum(root: TreeNode?, sum: Int): Boolean =
+    root?.let {
+        if (isLeaf(root))
+            sum - root.`val` == 0
+        else
+            hasPathSum(root.left, sum - root.`val`) || hasPathSum(root.right, sum - root.`val`)
+    } ?: false

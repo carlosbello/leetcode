@@ -48,6 +48,37 @@ class PropertiesKtTest {
         assertEquals(expectedIsSymmetric, treeIsSymmetric)
     }
 
+    @ParameterizedTest(name = "Test hasPathSum returns {1} when given sum is {0}")
+    @MethodSource("hasPathSumTestCases")
+    fun hasPathSum(givenSum: Int, expectedHasPathSum: Boolean) {
+        // given
+        /**
+         *       5
+         *      / \
+         *     4   8
+         *    /   / \
+         *   11  13  4
+         *  /  \      \
+         * 7    2      1
+         */
+        val tree = TreeNode(5,
+            TreeNode(4,
+                TreeNode(11,
+                    TreeNode(7), TreeNode(2))
+            ),
+            TreeNode(8,
+                TreeNode(13),
+                TreeNode(4, null, TreeNode(1))
+            )
+        )
+
+        // when
+        val hasPathSum = hasPathSum(tree, givenSum)
+
+        // then
+        assertEquals(expectedHasPathSum, hasPathSum)
+    }
+
     companion object {
         /**
          *     1
@@ -96,6 +127,15 @@ class PropertiesKtTest {
                 Arguments.of(::isSymmetric3, true, null, "null"),
                 Arguments.of(::isSymmetric3, true, symmetricTree, "symmetric"),
                 Arguments.of(::isSymmetric3, false, notSymmetricTree, "not symmetric")
+            )
+
+        @JvmStatic
+        fun hasPathSumTestCases(): Stream<Arguments> =
+            Stream.of(
+                Arguments.of(Int.MIN_VALUE, false),
+                Arguments.of(22, true),
+                Arguments.of(18, true),
+                Arguments.of(Int.MAX_VALUE, false)
             )
     }
 }
