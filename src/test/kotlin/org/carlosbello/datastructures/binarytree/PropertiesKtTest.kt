@@ -35,7 +35,12 @@ class PropertiesKtTest {
 
     @ParameterizedTest(name = "Test {0} returns {1} when {3}")
     @MethodSource("isSymmetricTestCases")
-    fun isSymmetric(isSymetricFn: (TreeNode?) -> Boolean, expectedIsSymmetric: Boolean, givenTree: TreeNode?) {
+    fun isSymmetric(
+        isSymetricFn: (TreeNode?) -> Boolean,
+        expectedIsSymmetric: Boolean,
+        givenTree: TreeNode?,
+        treeType: String
+    ) {
         // when
         val treeIsSymmetric = isSymetricFn(givenTree)
 
@@ -87,7 +92,10 @@ class PropertiesKtTest {
                 Arguments.of(::isSymmetric2, false, notSymmetricTree, "not symmetric"),
                 Arguments.of(::isSymmetric2a, true, null, "null"),
                 Arguments.of(::isSymmetric2a, true, symmetricTree, "symmetric"),
-                Arguments.of(::isSymmetric2a, false, notSymmetricTree, "not symmetric")
+                Arguments.of(::isSymmetric2a, false, notSymmetricTree, "not symmetric"),
+                Arguments.of(::isSymmetric3, true, null, "null"),
+                Arguments.of(::isSymmetric3, true, symmetricTree, "symmetric"),
+                Arguments.of(::isSymmetric3, false, notSymmetricTree, "not symmetric")
             )
     }
 }

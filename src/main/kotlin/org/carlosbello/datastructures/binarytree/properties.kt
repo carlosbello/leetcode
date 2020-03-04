@@ -13,8 +13,8 @@ fun maxDepth(root: TreeNode?): Int =
 /**
  * Symmetric Tree https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/536/
  *
- * Recursive solution: A list of nodes is symmetric if the list of node values is equal to itself reversed and
- * the children node list is symmetric
+ * Recursive solution: A tree is symmetric if list of children values is equal to itself reversed and
+ * their children node list is symmetric
  */
 fun isSymmetric1(root: TreeNode?): Boolean {
     fun nodeListIsSymmetric(nodeList: List<TreeNode?>): Boolean {
@@ -57,3 +57,17 @@ fun isSymmetric2a(root: TreeNode?): Boolean =
         }
         isSymmetric
     } ?: true
+
+/**
+ * Symmetric Tree https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/536/
+ *
+ * Recursive solution: A tree is symmetric if their children are symmetric and two nodes are symmetric if the
+ * left child of the first is symmetric with the right child of the second, and vice-versa
+ */
+fun isSymmetric3(root: TreeNode?): Boolean {
+    fun areSymmetric(root1: TreeNode?, root2: TreeNode?): Boolean =
+        root1 == null && root2 == null || root1?.`val` == root2?.`val` &&
+                areSymmetric(root1?.left, root2?.right) && areSymmetric(root1?.right, root2?.left)
+
+    return root == null || areSymmetric(root.left, root.right)
+}
