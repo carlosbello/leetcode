@@ -10,7 +10,7 @@ class TraversalsKtTest {
 
     @ParameterizedTest(name = "Test {0} returns {1} when {3}")
     @MethodSource("traversalTestCases")
-    fun testTraversal(traversalFn: (TreeNode?) -> List<Int>, expectedTraversal: List<Int>, givenTree: TreeNode?, treeType: String) {
+    fun testTraversal(traversalFn: (TreeNode?) -> List<Int>, expectedTraversal: List<Int>, givenTree: TreeNode?) {
         // when
         val traversal = traversalFn(givenTree)
 
@@ -20,7 +20,7 @@ class TraversalsKtTest {
 
     @ParameterizedTest(name = "Test {0} returns {1} when {3}")
     @MethodSource("levelOrderTraversalTestCases")
-    fun testLevelOrderTraversal(levelOrderTraversalFn: (TreeNode?) -> List<List<Int>>, expectedTraversal:List<List<Int>>, givenTree: TreeNode?, treeType: String) {
+    fun testLevelOrderTraversal(levelOrderTraversalFn: (TreeNode?) -> List<List<Int>>, expectedTraversal:List<List<Int>>, givenTree: TreeNode?) {
         // when
         val traversal = levelOrderTraversalFn(givenTree)
 
