@@ -1,7 +1,7 @@
 package org.carlosbello.datastructures.binarytree
 
 /**
- * Binary Tree Preorder Traversal https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/
+ * Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
  */
 fun preorderTraversal(root: TreeNode?): List<Int> =
     root?.let {
@@ -9,7 +9,7 @@ fun preorderTraversal(root: TreeNode?): List<Int> =
     } ?: listOf()
 
 /**
- * Binary Tree Inorder Traversal https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/
+ * Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
  */
 fun inorderTraversal(root: TreeNode?): List<Int> =
     root?.let {
@@ -17,7 +17,7 @@ fun inorderTraversal(root: TreeNode?): List<Int> =
     } ?: listOf()
 
 /**
- * Binary Tree Postorder Traversal https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/930/
+ * Binary Tree Postorder Traversal https://leetcode.com/problems/binary-tree-postorder-traversal/
  */
 fun postorderTraversal(root: TreeNode?): List<Int> =
     root?.let {
@@ -25,7 +25,7 @@ fun postorderTraversal(root: TreeNode?): List<Int> =
     } ?: listOf()
 
 /**
- * Binary Tree Level Order Traversal https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/
+ * Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/
  */
 fun levelOrderTraversal(root: TreeNode?): List<List<Int>> =
     root?.let {
