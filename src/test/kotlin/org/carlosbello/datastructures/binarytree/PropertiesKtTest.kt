@@ -1,5 +1,6 @@
 package org.carlosbello.datastructures.binarytree
 
+import org.carlosbello.mapFunctionToTestCases
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
@@ -114,19 +115,22 @@ class PropertiesKtTest {
 
         @JvmStatic
         fun isSymmetricTestCases(): Stream<Arguments> =
-            Stream.of(
-                Arguments.of(::isSymmetric1, true, null, "null"),
-                Arguments.of(::isSymmetric1, true, symmetricTree, "symmetric"),
-                Arguments.of(::isSymmetric1, false, notSymmetricTree, "not symmetric"),
-                Arguments.of(::isSymmetric2, true, null, "null"),
-                Arguments.of(::isSymmetric2, true, symmetricTree, "symmetric"),
-                Arguments.of(::isSymmetric2, false, notSymmetricTree, "not symmetric"),
-                Arguments.of(::isSymmetric2a, true, null, "null"),
-                Arguments.of(::isSymmetric2a, true, symmetricTree, "symmetric"),
-                Arguments.of(::isSymmetric2a, false, notSymmetricTree, "not symmetric"),
-                Arguments.of(::isSymmetric3, true, null, "null"),
-                Arguments.of(::isSymmetric3, true, symmetricTree, "symmetric"),
-                Arguments.of(::isSymmetric3, false, notSymmetricTree, "not symmetric")
+            mapFunctionToTestCases(
+                listOf(::isSymmetric1, ::isSymmetric2, ::isSymmetric2a, ::isSymmetric3),
+                listOf(
+                    arrayOf(true, null, "null"),
+                    arrayOf(true, symmetricTree, "symmetric"),
+                    arrayOf(false, notSymmetricTree, "not symmetric"),
+                    arrayOf(true, null, "null"),
+                    arrayOf(true, symmetricTree, "symmetric"),
+                    arrayOf(false, notSymmetricTree, "not symmetric"),
+                    arrayOf(true, null, "null"),
+                    arrayOf(true, symmetricTree, "symmetric"),
+                    arrayOf(false, notSymmetricTree, "not symmetric"),
+                    arrayOf(true, null, "null"),
+                    arrayOf(true, symmetricTree, "symmetric"),
+                    arrayOf(false, notSymmetricTree, "not symmetric")
+                )
             )
 
         @JvmStatic
