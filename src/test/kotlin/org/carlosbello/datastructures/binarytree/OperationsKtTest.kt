@@ -1,11 +1,11 @@
 package org.carlosbello.datastructures.binarytree
 
+import org.carlosbello.mapFunctionToTestCases
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
-import kotlin.streams.asStream
 
 typealias TreeBuilderFunction = (IntArray, IntArray) -> TreeNode?
 
@@ -69,14 +69,6 @@ internal class OperationsKtTest {
         private val preorderTree2 = listOf(3, 20, 15, 7, 9).toIntArray()
         private val inorderTree2 = listOf(15, 20, 7, 3, 9).toIntArray()
         private val postorderTree2 = listOf(15, 7, 20, 9, 3).toIntArray()
-
-        fun mapFunctionToTestCases(functions: Iterable<TreeBuilderFunction>, testCases: Iterable<Array<out Any?>>): Stream<Arguments> =
-            functions.flatMap { fn ->
-                testCases.map { testParams ->
-                    Arguments.of(fn, *testParams)
-                }
-            }.asSequence().asStream()
-
 
         @JvmStatic
         fun buildFromInorderAndPostorderTestCases(): Stream<Arguments> =
