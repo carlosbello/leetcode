@@ -1,5 +1,7 @@
 package org.carlosbello.leecode.strings
 
+import kotlin.math.abs
+
 /**
  * 266. Palindrome Permutation https://leetcode.com/problems/palindrome-permutation/
  *
@@ -32,3 +34,16 @@ fun canPermutePalindrome2(s: String): Boolean {
     }
     return true
 }
+
+/**
+ * 161. One Edit Distance https://leetcode.com/problems/one-edit-distance/
+ */
+fun isOneEditDistance(s: String, t: String): Boolean =
+    when {
+        abs(s.length - t.length) > 1 || s.length + t.length == 0 -> false
+        s.length + t.length == 1 -> true
+        s[0] == t[0] -> isOneEditDistance(s.substring(1), t.substring(1))
+        s.length == t.length -> s.substring(1) == t.substring(1)
+        s.length < t.length -> s == t.substring(1)
+        else -> s.substring(1) == t
+    }

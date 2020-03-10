@@ -19,6 +19,17 @@ internal class PropertiesKtTest {
         assertEquals(expectedIsAPermutedPalindrome, isAPermutedPalindrome)
     }
 
+
+    @ParameterizedTest(name = "isOneEditDistance returns {2} given {0}, {1}")
+    @MethodSource("isOneEditDistanceTestCases")
+    fun isOneEditDistance(s: String, t: String, expectedIsOneEditDistance: Boolean) {
+        // when
+        val isOneEditDistance = isOneEditDistance(s, t)
+
+        // then
+        assertEquals(expectedIsOneEditDistance, isOneEditDistance)
+    }
+
     companion object {
         @JvmStatic
         fun canPermutePalindromeTestCases(): Stream<Arguments> =
@@ -36,5 +47,17 @@ internal class PropertiesKtTest {
                 )
             )
 
+        @JvmStatic
+        fun isOneEditDistanceTestCases(): Stream<Arguments> =
+            Stream.of(
+                Arguments.of("", "", false),
+                Arguments.of("a", "a", false),
+                Arguments.of("a", "aaa", false),
+                Arguments.of("a", "ba", true),
+                Arguments.of("a", "ab", true),
+                Arguments.of("ab", "ac", true),
+                Arguments.of("ba", "ca", true),
+                Arguments.of("abc", "adc", true)
+            )
     }
 }
