@@ -1,0 +1,36 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solutions to leetcode.com challenges",
+  "main": "src/main/javascript/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosbello/leetcode.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data",
+    "structures"
+  ],
+  "author": "Carlos Bello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosbello/leetcode/issues"
+  },
+  "homepage": "https://github.com/carlosbello/leetcode#readme",
+  "devDependencies": {
+    "ava": "^3.5.0"
+  },
+  "ava": {
+    "files": ["src/main/javascript/**/__tests__/*-test.js"],
+    "verbose": true
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "singleQuote": true
+  }
+}
