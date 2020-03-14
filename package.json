@@ -22,10 +22,14 @@
   },
   "homepage": "https://github.com/carlosbello/leetcode#readme",
   "devDependencies": {
-    "ava": "^3.5.0"
+    "ava": "^3.5.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
   },
   "ava": {
-    "files": ["src/main/javascript/**/__tests__/*-test.js"],
+    "files": [
+      "src/main/javascript/**/__tests__/*-test.js"
+    ],
     "verbose": true
   },
   "prettier": {
