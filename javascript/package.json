@@ -2,7 +2,7 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "Solutions to leetcode.com challenges",
-  "main": "src/main/javascript/index.js",
+  "main": "src/javascript/index.js",
   "scripts": {
     "test": "ava"
   },
@@ -28,7 +28,7 @@
   },
   "ava": {
     "files": [
-      "src/main/javascript/**/__tests__/*-test.js"
+      "src/**/__tests__/*-test.js"
     ],
     "verbose": true
   },
