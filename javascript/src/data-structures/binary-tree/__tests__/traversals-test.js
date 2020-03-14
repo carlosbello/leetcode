@@ -10,7 +10,7 @@ const { TreeNode } = require('../tree-node');
  *  3
  */
 const tree1 = new TreeNode(1, null, new TreeNode(2, new TreeNode(3)));
-const tree1Representation = '[3, 9, null, null, 20, 15, 17]'
+const tree1Representation = '[3, 9, null, null, 20, 15, 17]';
 
 const traversalTest = (t, traversalFn, givenTree, expectedTraversal) => {
     // when
