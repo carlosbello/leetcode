@@ -1,5 +1,5 @@
 const test = require('ava');
-const { transpose } = require('../operations');
+const { transpose, setZeroes } = require('../operations');
 
 const transposeTest = (t, givenMatrix, expectedMatrix) => {
     // when
@@ -35,5 +35,43 @@ test(
         [1, 4],
         [2, 5],
         [3, 6]
+    ]
+);
+
+const setZeroesTest = (t, givenMatrix, expectedMatrix) => {
+    // when
+    setZeroes(givenMatrix);
+
+    // then
+    t.deepEqual(expectedMatrix, givenMatrix);
+};
+setZeroesTest.title = (t, givenMatrix, expectedMatrix) =>
+    `Test setZeroes returns [${expectedMatrix}] given [${givenMatrix}]`;
+
+test(setZeroesTest, [], []);
+test(
+    setZeroesTest,
+    [
+        [1, 1, 1],
+        [1, 0, 1],
+        [1, 1, 1]
+    ],
+    [
+        [1, 0, 1],
+        [0, 0, 0],
+        [1, 0, 1]
+    ]
+);
+test(
+    setZeroesTest,
+    [
+        [0, 1, 2, 0],
+        [3, 4, 5, 2],
+        [1, 3, 1, 5]
+    ],
+    [
+        [0, 0, 0, 0],
+        [0, 4, 5, 0],
+        [0, 3, 1, 0]
     ]
 );
