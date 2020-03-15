@@ -1,4 +1,4 @@
-package org.carlosbello.leecode.strings
+package org.carlosbello.strings
 
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Assertions.assertTrue

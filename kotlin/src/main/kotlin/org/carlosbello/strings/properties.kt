@@ -1,4 +1,4 @@
-package org.carlosbello.leecode.strings
+package org.carlosbello.strings
 
 import kotlin.math.abs
 

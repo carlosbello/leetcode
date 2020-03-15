@@ -1,4 +1,4 @@
-package org.carlosbello.leecode.strings
+package org.carlosbello.strings
 
 /**
  * 443. String Compression https://leetcode.com/problems/string-compression/

@@ -1,4 +1,4 @@
-package org.carlosbello.leecode.strings
+package org.carlosbello.strings
 
 import org.carlosbello.mapFunctionToTestCases
 import org.junit.jupiter.api.Assertions.assertEquals
