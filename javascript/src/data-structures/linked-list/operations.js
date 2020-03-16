@@ -44,4 +44,26 @@ const deleteAllDuplicates = head => {
     return head;
 };
 
-module.exports = { deleteDuplicates, deleteAllDuplicates };
+/**
+ * 206. Reverse Linked List https://leetcode.com/problems/reverse-linked-list/
+ *
+ * @param {ListNode} head
+ * @returns {ListNode}
+ */
+const reverseList = head => {
+    if (!head) {
+        return head;
+    }
+    let headOfReversed = new ListNode(head.val);
+    let current = head;
+
+    while (current.next) {
+        const newHead = new ListNode(current.next.val);
+        newHead.next = headOfReversed;
+        headOfReversed = newHead;
+        current = current.next;
+    }
+    return headOfReversed;
+};
+
+module.exports = { deleteDuplicates, deleteAllDuplicates, reverseList };
