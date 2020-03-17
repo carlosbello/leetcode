@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 const ListNode = require('./list-node');
+const Node = require('./node');
 
 /**
  * 83. Remove Duplicates from Sorted List https://leetcode.com/problems/remove-duplicates-from-sorted-list/
@@ -68,17 +69,21 @@ const reverseList = head => {
 
 /**
  * 21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
- * 
- * @param {ListNode} l1 
- * @param {ListNode} l2 
+ *
+ * @param {ListNode} l1
+ * @param {ListNode} l2
  * @returns {ListNode}
  */
 const mergeTwoLists = (l1, l2) => {
     let newHead;
     let current1;
     let current2;
-    if (!l1) { return l2; }
-    if (!l2) { return l1; }
+    if (!l1) {
+        return l2;
+    }
+    if (!l2) {
+        return l1;
+    }
     if (l1.val <= l2.val) {
         newHead = l1;
         current1 = l1.next;
@@ -107,4 +112,33 @@ const mergeTwoLists = (l1, l2) => {
     return newHead;
 };
 
-module.exports = { deleteDuplicates, deleteAllDuplicates, reverseList, mergeTwoLists };
+/**
+ * @typedef {Object} RandomListNode
+ * @property {*} val
+ * @property {RandomListNode} next
+ * @property {RandomListNode} random
+ */
+
+/**
+ * 138. Copy List with Random Pointer https://leetcode.com/problems/copy-list-with-random-pointer/
+ *
+ * @param {RandomListNode} head
+ * @returns {RandomListNode}
+ */
+const copyRandomList = head => {
+    /** @type Map<RandomListNode, RandomListNode> */
+    const nodeToClone = new Map();
+    let current = head;
+    while (current) {
+        const clone = new Node(current.val);
+        nodeToClone.set(current, clone);
+        current = current.next;
+    }
+    for (let [node, clone] of nodeToClone) {
+        clone.next = nodeToClone.get(node.next) || null;
+        clone.random = nodeToClone.get(node.random) || null;
+    }
+    return nodeToClone.get(head) || null;
+};
+
+module.exports = { deleteDuplicates, deleteAllDuplicates, reverseList, mergeTwoLists, copyRandomList };
