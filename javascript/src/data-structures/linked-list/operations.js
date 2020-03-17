@@ -66,4 +66,45 @@ const reverseList = head => {
     return headOfReversed;
 };
 
-module.exports = { deleteDuplicates, deleteAllDuplicates, reverseList };
+/**
+ * 21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
+ * 
+ * @param {ListNode} l1 
+ * @param {ListNode} l2 
+ * @returns {ListNode}
+ */
+const mergeTwoLists = (l1, l2) => {
+    let newHead;
+    let current1;
+    let current2;
+    if (!l1) { return l2; }
+    if (!l2) { return l1; }
+    if (l1.val <= l2.val) {
+        newHead = l1;
+        current1 = l1.next;
+        current2 = l2;
+    } else {
+        newHead = l2;
+        current1 = l1;
+        current2 = l2.next;
+    }
+    let newCurrent = newHead;
+    while (current1 && current2) {
+        if (current1.val <= current2.val) {
+            newCurrent.next = current1;
+            current1 = current1.next;
+        } else {
+            newCurrent.next = current2;
+            current2 = current2.next;
+        }
+        newCurrent = newCurrent.next;
+    }
+    if (current1) {
+        newCurrent.next = current1;
+    } else {
+        newCurrent.next = current2;
+    }
+    return newHead;
+};
+
+module.exports = { deleteDuplicates, deleteAllDuplicates, reverseList, mergeTwoLists };
