@@ -1,6 +1,6 @@
 const test = require('ava');
 const TreeNode = require('../tree-node');
-const { countUnivalSubtrees } = require('../properties');
+const { countUnivalSubtrees, isSameTree } = require('../properties');
 
 // @ts-ignore
 test('countUnivalSubtrees returns 0 when null', t => {
@@ -35,4 +35,58 @@ test('countUnivalSubtrees returns expected count', t => {
 
     // then
     t.is(count, expectedCount);
+});
+
+// @ts-ignore
+test('isSameTree returns true given both trees are null', t => {
+    t.is(true, isSameTree(null, null));
+});
+
+// @ts-ignore
+test('isSameTree returns false given one of the trees is null', t => {
+    t.is(false, isSameTree(null, new TreeNode(1)));
+    t.is(false, isSameTree(new TreeNode(1), null));
+});
+
+// @ts-ignore
+test('isSameTree returns true given same trees', t => {
+    // given
+    const tree1 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+    const tree2 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+
+    // then
+    t.is(true, isSameTree(tree1, tree2));
+});
+
+// @ts-ignore
+test('isSameTree returns false given reversed trees', t => {
+    // given
+    const tree1 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+    const tree1reversed = new TreeNode(1, new TreeNode(3), new TreeNode(2));
+    const tree2 = new TreeNode(1, new TreeNode(2));
+    const tree2reversed = new TreeNode(1, null, new TreeNode(2));
+
+    // then
+    t.is(false, isSameTree(tree1, tree1reversed));
+    t.is(false, isSameTree(tree2, tree2reversed));
+});
+
+// @ts-ignore
+test('isSameTree returns false given almost same trees', t => {
+    // given
+    const tree1 = new TreeNode(4, new TreeNode(1, new TreeNode(0)), new TreeNode(3));
+    const tree2 = new TreeNode(4, new TreeNode(1), new TreeNode(2));
+
+    // then
+    t.is(false, isSameTree(tree1, tree2));
+});
+
+// @ts-ignore
+test('isSameTree returns false given same roots, different distributions', t => {
+    // given
+    const tree1 = new TreeNode(10, new TreeNode(5), new TreeNode(15));
+    const tree2 = new TreeNode(10, new TreeNode(5, null, new TreeNode(15)));
+
+    // then
+    t.is(false, isSameTree(tree1, tree2));
 });

@@ -29,4 +29,14 @@ const countUnivalSubtrees = root => {
     return univalSubtrees(root)[0];
 };
 
-module.exports = { countUnivalSubtrees };
+/**
+ * 100. Same Tree https://leetcode.com/problems/same-tree/
+ *
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @returns {Boolean}
+ */
+const isSameTree = (p, q) =>
+    (!p && !q) || (!!p && !!q && p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
+
+module.exports = { countUnivalSubtrees, isSameTree };
