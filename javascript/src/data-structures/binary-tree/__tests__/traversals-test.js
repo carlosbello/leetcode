@@ -1,6 +1,6 @@
 const test = require('ava');
 const { preorderTraversal, inorderTraversal } = require('../traversals');
-const { TreeNode } = require('../tree-node');
+const TreeNode = require('../tree-node');
 
 /**
  *  1
@@ -22,5 +22,7 @@ const traversalTest = (t, traversalFn, givenTree, expectedTraversal) => {
 traversalTest.title = (t, traversalFn, givenTree, expectedTraversal, givenTreeRepresentation) =>
     `Test ${traversalFn.name} returns [${expectedTraversal}] given tree ${givenTreeRepresentation}`;
 
+// @ts-ignore
 test(traversalTest, preorderTraversal, tree1, [1, 2, 3], tree1Representation);
+// @ts-ignore
 test(traversalTest, inorderTraversal, tree1, [1, 3, 2], tree1Representation);
