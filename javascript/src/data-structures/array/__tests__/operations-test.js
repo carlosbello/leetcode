@@ -1,5 +1,5 @@
 const test = require('ava');
-const { transpose, setZeroes } = require('../operations');
+const { transpose, setZeroes, duplicateZeros } = require('../operations');
 
 const transposeTest = (t, givenMatrix, expectedMatrix) => {
     // when
@@ -11,7 +11,9 @@ const transposeTest = (t, givenMatrix, expectedMatrix) => {
 transposeTest.title = (t, givenMatrix, expectedMatrix) =>
     `Test transpose returns [${expectedMatrix}] given [${givenMatrix}]`;
 
+// @ts-ignore
 test(transposeTest, [], []);
+// @ts-ignore
 test(
     transposeTest,
     [
@@ -25,6 +27,7 @@ test(
         [3, 6, 9]
     ]
 );
+// @ts-ignore
 test(
     transposeTest,
     [
@@ -48,7 +51,9 @@ const setZeroesTest = (t, givenMatrix, expectedMatrix) => {
 setZeroesTest.title = (t, givenMatrix, expectedMatrix) =>
     `Test setZeroes returns [${expectedMatrix}] given [${givenMatrix}]`;
 
+// @ts-ignore
 test(setZeroesTest, [], []);
+// @ts-ignore
 test(
     setZeroesTest,
     [
@@ -62,6 +67,7 @@ test(
         [1, 0, 1]
     ]
 );
+// @ts-ignore
 test(
     setZeroesTest,
     [
@@ -75,3 +81,24 @@ test(
         [0, 3, 1, 0]
     ]
 );
+
+// @ts-ignore
+test('duplicateZeros', t => {
+    // given
+    const givenA0 = [0, 1];
+    const expectedA0 = [0, 0];
+    const givenA1 = [1, 0, 2, 3, 0, 4, 5, 0];
+    const expectedA1 = [1, 0, 0, 2, 3, 0, 0, 4];
+    const givenA2 = [1, 2, 3];
+    const expectedA2 = [1, 2, 3];
+
+    // when
+    duplicateZeros(givenA0);
+    duplicateZeros(givenA1);
+    duplicateZeros(givenA2);
+
+    // then
+    t.deepEqual(givenA0, expectedA0);
+    t.deepEqual(givenA1, expectedA1);
+    t.deepEqual(givenA2, expectedA2);
+});

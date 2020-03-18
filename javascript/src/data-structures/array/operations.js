@@ -19,12 +19,12 @@ const transpose = A => {
 };
 
 /**
- * 73. Set Matrix Zeroes 
- * 
+ * 73. Set Matrix Zeroes
+ *
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-const setZeroes = (matrix) => {
+const setZeroes = matrix => {
     if (matrix.length == 0) {
         return;
     }
@@ -48,4 +48,20 @@ const setZeroes = (matrix) => {
     }
 };
 
-module.exports = { transpose, setZeroes };
+/**
+ * 1089. Duplicate Zeros https://leetcode.com/problems/duplicate-zeros/
+ *
+ * @param {Number[]} arr
+ */
+const duplicateZeros = arr => {
+    const length = arr.length;
+    for (let i = 0; i < length - 1; i++) {
+        if (arr[i] === 0) {
+            arr.splice(i + 1, 0, 0);
+            arr.splice(length, 1);
+            i++;
+        }
+    }
+};
+
+module.exports = { transpose, setZeroes, duplicateZeros };
