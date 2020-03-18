@@ -1,6 +1,6 @@
 const test = require('ava');
 const TreeNode = require('../tree-node');
-const { countUnivalSubtrees, isSameTree } = require('../properties');
+const { countUnivalSubtrees, isSameTree, isSubtree } = require('../properties');
 
 // @ts-ignore
 test('countUnivalSubtrees returns 0 when null', t => {
@@ -89,4 +89,34 @@ test('isSameTree returns false given same roots, different distributions', t => 
 
     // then
     t.is(false, isSameTree(tree1, tree2));
+});
+
+// @ts-ignore
+test('isSubtree returns true given equal trees', t => {
+    // given
+    const tree1 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+    const tree2 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+
+    // then
+    t.is(true, isSubtree(tree1, tree2));
+});
+
+// @ts-ignore
+test('isSubtree returns true given subtree', t => {
+    // given
+    const tree1 = new TreeNode(3, new TreeNode(4, 1, 2), new TreeNode(5));
+    const tree2 = new TreeNode(4, 1, 2);
+
+    // then
+    t.is(true, isSubtree(tree1, tree2));
+});
+
+// @ts-ignore
+test('isSubtree returns false given partial-subtree', t => {
+    // given
+    const tree1 = new TreeNode(3, new TreeNode(4, 1, new TreeNode(2, null, 0)), new TreeNode(5));
+    const tree2 = new TreeNode(4, 1, 2);
+
+    // then
+    t.is(false, isSubtree(tree1, tree2));
 });

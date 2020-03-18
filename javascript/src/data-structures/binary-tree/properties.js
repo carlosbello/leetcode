@@ -39,4 +39,12 @@ const countUnivalSubtrees = root => {
 const isSameTree = (p, q) =>
     (!p && !q) || (!!p && !!q && p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
 
-module.exports = { countUnivalSubtrees, isSameTree };
+/**
+ * 572. Subtree of Another Tree https://leetcode.com/problems/subtree-of-another-tree/
+ * @param {TreeNode} s
+ * @param {TreeNode} t
+ */
+const isSubtree = (s, t) =>
+    isSameTree(s, t) || (!!s.left && isSubtree(s.left, t)) || (!!s.right && isSubtree(s.right, t));
+
+module.exports = { countUnivalSubtrees, isSameTree, isSubtree };
