@@ -1,7 +1,7 @@
 const ListNode = require('./list-node');
 
 /**
- * 234. Palindrome Linked https://leetcode.com/problems/palindrome-linked-list/
+ * 234. Palindrome Linked List [easy] https://leetcode.com/problems/palindrome-linked-list/
  *
  * This approach uses *only* linked lists as a data structure. See {@link isPalindrome2}
  * for a much simpler (but not faster) version that uses an array.
@@ -42,7 +42,7 @@ const isPalindrome1 = head => {
 };
 
 /**
- * 234. Palindrome Linked https://leetcode.com/problems/palindrome-linked-list/
+ * 234. Palindrome Linked List [easy] https://leetcode.com/problems/palindrome-linked-list/
  *
  * This solution is much simpler than {@link isPalindrome1} but uses a different data structure
  * @param {ListNode} head

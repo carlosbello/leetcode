@@ -3,7 +3,7 @@ const ListNode = require('./list-node');
 const Node = require('./node');
 
 /**
- * 83. Remove Duplicates from Sorted List https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+ * 83. Remove Duplicates from Sorted List [easy] https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
  * @param {ListNode} head
  * @return {ListNode}
@@ -22,7 +22,7 @@ const deleteDuplicates = head => {
 };
 
 /**
- * 82. Remove Duplicates from Sorted List II https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+ * 82. Remove Duplicates from Sorted List II [medium] https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
  *
  * @param {ListNode} head
  * @return {ListNode}
@@ -46,7 +46,7 @@ const deleteAllDuplicates = head => {
 };
 
 /**
- * 206. Reverse Linked List https://leetcode.com/problems/reverse-linked-list/
+ * 206. Reverse Linked List [easy] https://leetcode.com/problems/reverse-linked-list/
  *
  * @param {ListNode} head
  * @returns {ListNode}
@@ -68,7 +68,7 @@ const reverseList = head => {
 };
 
 /**
- * 21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
+ * 21. Merge Two Sorted Lists [easy] https://leetcode.com/problems/merge-two-sorted-lists/
  *
  * @param {ListNode} l1
  * @param {ListNode} l2
@@ -120,7 +120,7 @@ const mergeTwoLists = (l1, l2) => {
  */
 
 /**
- * 138. Copy List with Random Pointer https://leetcode.com/problems/copy-list-with-random-pointer/
+ * 138. Copy List with Random Pointer [medium] https://leetcode.com/problems/copy-list-with-random-pointer/
  *
  * @param {RandomListNode} head
  * @returns {RandomListNode}

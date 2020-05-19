@@ -3,7 +3,7 @@ const TreeNode = require('./tree-node');
 const { inorderTraversal } = require('./traversals');
 
 /**
- * 700. Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/
+ * 700. Search in a Binary Search Tree [easy] https://leetcode.com/problems/search-in-a-binary-search-tree/
  * @param {TreeNode} root
  * @param {*} val
  * @returns {TreeNode}
@@ -16,7 +16,7 @@ const searchBST = (root, val) => {
 };
 
 /**
- * 653. Two Sum IV - Input is a BST https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+ * 653. Two Sum IV - Input is a BST [easy] https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
  *
  * @param {TreeNode} root
  * @param {Number} k

@@ -2,7 +2,7 @@
 const TreeNode = require('./tree-node');
 
 /**
- * 250. Count Univalue Subtrees https://leetcode.com/problems/count-univalue-subtrees/
+ * 250. Count Univalue Subtrees [medium] https://leetcode.com/problems/count-univalue-subtrees/
  *
  * @param {TreeNode} root
  * @returns {Number}
@@ -30,7 +30,7 @@ const countUnivalSubtrees = root => {
 };
 
 /**
- * 100. Same Tree https://leetcode.com/problems/same-tree/
+ * 100. Same Tree [easy] https://leetcode.com/problems/same-tree/
  *
  * @param {TreeNode} p
  * @param {TreeNode} q
@@ -40,7 +40,7 @@ const isSameTree = (p, q) =>
     (!p && !q) || (!!p && !!q && p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
 
 /**
- * 572. Subtree of Another Tree https://leetcode.com/problems/subtree-of-another-tree/
+ * 572. Subtree of Another Tree [easy] https://leetcode.com/problems/subtree-of-another-tree/
  * @param {TreeNode} s
  * @param {TreeNode} t
  */

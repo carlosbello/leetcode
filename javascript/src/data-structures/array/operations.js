@@ -1,5 +1,5 @@
 /**
- * 867. Transpose Matrix https://leetcode.com/problems/transpose-matrix/
+ * 867. Transpose Matrix [easy] https://leetcode.com/problems/transpose-matrix/
  *
  * @param {number[][]} A
  * @return {number[][]}
@@ -19,7 +19,7 @@ const transpose = A => {
 };
 
 /**
- * 73. Set Matrix Zeroes
+ * 73. Set Matrix Zeroes [medium] https://leetcode.com/problems/set-matrix-zeroes/
  *
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -49,7 +49,7 @@ const setZeroes = matrix => {
 };
 
 /**
- * 1089. Duplicate Zeros https://leetcode.com/problems/duplicate-zeros/
+ * 1089. Duplicate Zeros [easy] https://leetcode.com/problems/duplicate-zeros/
  *
  * @param {Number[]} arr
  */

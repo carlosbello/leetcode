@@ -1,5 +1,5 @@
 /**
- * 1176. Diet Plan Performance https://leetcode.com/problems/diet-plan-performance/
+ * 1176. Diet Plan Performance [easy] https://leetcode.com/problems/diet-plan-performance/
  *
  * @param {number[]} calories
  * @param {number} k
