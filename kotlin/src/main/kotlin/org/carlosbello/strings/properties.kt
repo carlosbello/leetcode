@@ -3,7 +3,7 @@ package org.carlosbello.strings
 import kotlin.math.abs
 
 /**
- * 266. Palindrome Permutation https://leetcode.com/problems/palindrome-permutation/
+ * 266. Palindrome Permutation [easy] https://leetcode.com/problems/palindrome-permutation/
  *
  * Approach: For each char, count the amount of times it appears in the string. A palindrome should have at most one
  * character with an odd number of appearances
@@ -16,6 +16,8 @@ fun canPermutePalindrome1(s: String): Boolean =
         } <= 1
 
 /**
+ * 266. Palindrome Permutation [easy] https://leetcode.com/problems/palindrome-permutation/
+ *
  * Similar to {@link canPermutePalindrome1} but avoiding the intermediate creation of a list of repeated chars for each
  * unique char in the string and early returning if more than one odd char group is found
  */
@@ -36,7 +38,7 @@ fun canPermutePalindrome2(s: String): Boolean {
 }
 
 /**
- * 161. One Edit Distance https://leetcode.com/problems/one-edit-distance/
+ * 161. One Edit Distance [medium] https://leetcode.com/problems/one-edit-distance/
  */
 fun isOneEditDistance(s: String, t: String): Boolean =
     when {

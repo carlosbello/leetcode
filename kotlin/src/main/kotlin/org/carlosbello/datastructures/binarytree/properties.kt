@@ -3,7 +3,7 @@ package org.carlosbello.datastructures.binarytree
 import kotlin.math.max
 
 /**
- * Maximum Depth of Binary Tree https://leetcode.com/problems/maximum-depth-of-binary-tree/
+ * 104. Maximum Depth of Binary Tree [easy] https://leetcode.com/problems/maximum-depth-of-binary-tree/
  */
 fun maxDepth(root: TreeNode?): Int =
     root?.let {
@@ -11,7 +11,7 @@ fun maxDepth(root: TreeNode?): Int =
     } ?: 0
 
 /**
- * Symmetric Tree https://leetcode.com/problems/symmetric-tree/
+ * 101. Symmetric Tree [easy] https://leetcode.com/problems/symmetric-tree/
  *
  * Recursive solution: A tree is symmetric if list of children values is equal to itself reversed and
  * their children node list is symmetric
@@ -32,7 +32,7 @@ fun isSymmetric1(root: TreeNode?): Boolean {
 }
 
 /**
- * Symmetric Tree https://leetcode.com/problems/symmetric-tree/
+ * 101. Symmetric Tree [easy] https://leetcode.com/problems/symmetric-tree/
  *
  * The tree is symmetric if every level in the tree is equal the itself reversed
  */
@@ -40,7 +40,7 @@ fun isSymmetric2(root: TreeNode?): Boolean =
     levelOrderTraversalIncludingNulls(root).all { level -> level == level.reversed() }
 
 /**
- * Symmetric Tree https://leetcode.com/problems/symmetric-tree/
+ * 101. Symmetric Tree [easy] https://leetcode.com/problems/symmetric-tree/
  *
  * Same as isSymmetric2 but stop processing the tree when a not symmetric level is found
  */
@@ -59,7 +59,7 @@ fun isSymmetric2a(root: TreeNode?): Boolean =
     } ?: true
 
 /**
- * Symmetric Tree https://leetcode.com/problems/symmetric-tree/
+ * 101. Symmetric Tree [easy] https://leetcode.com/problems/symmetric-tree/
  *
  * Recursive solution: A tree is symmetric if their children are symmetric and two nodes are symmetric if the
  * left child of the first is symmetric with the right child of the second, and vice-versa
@@ -73,7 +73,7 @@ fun isSymmetric3(root: TreeNode?): Boolean {
 }
 
 /**
- * Path Sum https://leetcode.com/problems/path-sum/
+ * 112. Path Sum [easy] https://leetcode.com/problems/path-sum/
  */
 fun isLeaf(root: TreeNode?) =
     root != null && root.left == null && root.right == null

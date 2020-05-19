@@ -1,7 +1,7 @@
 package org.carlosbello.datastructures.binarytree
 
 /**
- * Construct Binary Tree from Inorder and Postorder Traversal https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+ * 106. Construct Binary Tree from Inorder and Postorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
  *
  * Note: The problem statement says we can assume that duplicates do not exist in the tree.
  *
@@ -25,6 +25,8 @@ fun buildFromInorderAndPostorder1(inorder: IntArray, postorder: IntArray) : Tree
     }
 
 /**
+ * 106. Construct Binary Tree from Inorder and Postorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+ *
  * Same as {@link buildFromInorderAndPostorder1} but pre-calculating the indexes of each node value
  */
 fun buildFromInorderAndPostorder2(inorder: IntArray, postorder: IntArray) : TreeNode? {
@@ -50,6 +52,8 @@ fun buildFromInorderAndPostorder2(inorder: IntArray, postorder: IntArray) : Tree
 }
 
 /**
+ * 106. Construct Binary Tree from Inorder and Postorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+ *
  * Same as {@link buildFromInorderAndPostorder2} but avoiding slicing arrays to obtain the subtrees
  */
 fun buildFromInorderAndPostorder3(inorder: IntArray, postorder: IntArray) : TreeNode? {
@@ -76,7 +80,7 @@ fun buildFromInorderAndPostorder3(inorder: IntArray, postorder: IntArray) : Tree
 }
 
 /**
- * Construct Binary Tree from Preorder and Inorder Traversal https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+ * 105. Construct Binary Tree from Preorder and Inorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  *
  * Note: The problem statement says we can assume that duplicates do not exist in the tree.
  *
@@ -100,6 +104,8 @@ fun buildFromPreorderAndInorder1(preorder: IntArray, inorder: IntArray): TreeNod
     }
 
 /**
+ * 105. Construct Binary Tree from Preorder and Inorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+ *
  * Same as {@link buildFromPreorderAndInorder} but pre-calculating the indexes of each node value
  */
 fun buildFromPreorderAndInorder2(preorder: IntArray, inorder: IntArray): TreeNode? {
@@ -125,6 +131,8 @@ fun buildFromPreorderAndInorder2(preorder: IntArray, inorder: IntArray): TreeNod
 }
 
 /**
+ * 105. Construct Binary Tree from Preorder and Inorder Traversal [medium] https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+ *
  * Same as {@link buildFromPreorderAndInorder2} but avoiding slicing arrays to obtain the subtrees
  */
 fun buildFromPreorderAndInorder3(preorder: IntArray, inorder: IntArray) : TreeNode? {

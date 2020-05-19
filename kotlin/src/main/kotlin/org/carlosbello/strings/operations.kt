@@ -1,7 +1,7 @@
 package org.carlosbello.strings
 
 /**
- * 443. String Compression https://leetcode.com/problems/string-compression/
+ * 443. String Compression [easy] https://leetcode.com/problems/string-compression/
  *
  * Note: The compression *must* be done *in-place*
  */
