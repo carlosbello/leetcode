@@ -14,6 +14,9 @@ original description of the challenge.
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|easy|[JavaScript](./javascript/src/problems/two-sum.js)|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
@@ -35,6 +38,7 @@ original description of the challenge.
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|hard|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
+|152|[3Sum](https://leetcode.com/problems/3sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TreeSum.java)|
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
