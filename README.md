@@ -18,6 +18,8 @@ original description of the challenge.
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|medium|[JavaScript](./javascript/src/data-structures/array/operations.js)|
