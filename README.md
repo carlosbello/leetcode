@@ -20,8 +20,11 @@ original description of the challenge.
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/GroupAnagrams.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddBinary.java)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|medium|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
