@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 49. Group Anagrams [medium] https://leetcode.com/problems/group-anagrams/
@@ -34,5 +36,12 @@ public class GroupAnagrams {
             hashToWords.get(hash).add(word);
         }
         return new ArrayList<List<String>>(hashToWords.values());
+    }
+
+    public List<List<String>> groupAnagrams2(String[] strs) {
+        return new ArrayList<>(Stream.of(strs)
+                .collect(Collectors.groupingBy(this::hashOf))
+                .values()
+        );
     }
 }
