@@ -14,6 +14,7 @@ original description of the challenge.
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|easy|[JavaScript](./javascript/src/problems/two-sum.js)|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddTwoNumbers.java)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
@@ -41,6 +42,7 @@ original description of the challenge.
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|easy|[JavaScript](./javascript/src/problems/single-number.js)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CopyListWithRandomPointer.java)|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|hard|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |152|[3Sum](https://leetcode.com/problems/3sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TreeSum.java)|
