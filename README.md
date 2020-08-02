@@ -31,6 +31,7 @@ original description of the challenge.
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidateBinarySearchTree.java)|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
