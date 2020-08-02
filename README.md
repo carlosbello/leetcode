@@ -39,11 +39,13 @@ original description of the challenge.
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/operations.kt)|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/operations.kt)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
+|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FlattenBinaryTreeToLinkedList.java)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[JavaScript](./javascript/src/problems/best-time-to-buy-and-sell-stock.js)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|easy|[JavaScript](./javascript/src/problems/single-number.js)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CopyListWithRandomPointer.java)|
+|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReorderList.java)|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|hard|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |152|[3Sum](https://leetcode.com/problems/3sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TreeSum.java)|
