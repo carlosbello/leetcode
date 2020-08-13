@@ -53,10 +53,12 @@ original description of the challenge.
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/properties.js)|
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ProductOfArrayExceptSelf.java)|
 |250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
