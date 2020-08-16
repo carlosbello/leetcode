@@ -29,6 +29,7 @@ original description of the challenge.
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|medium|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeSortedArray.java)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidateBinarySearchTree.java)|
@@ -42,6 +43,8 @@ original description of the challenge.
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FlattenBinaryTreeToLinkedList.java)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[JavaScript](./javascript/src/problems/best-time-to-buy-and-sell-stock.js)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidPalindrome.java)|
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CloneGraph.java)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|easy|[JavaScript](./javascript/src/problems/single-number.js)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CopyListWithRandomPointer.java)|
@@ -50,6 +53,7 @@ original description of the challenge.
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|hard|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |152|[3Sum](https://leetcode.com/problems/3sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TreeSum.java)|
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeRightSideView.java)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/properties.js)|
