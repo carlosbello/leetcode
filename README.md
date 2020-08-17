@@ -52,6 +52,8 @@ original description of the challenge.
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|hard|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |152|[3Sum](https://leetcode.com/problems/3sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TreeSum.java)|
+|157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReadNCharactersGivenRead4.java)|
+|158|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReadNCharactersGivenRead4IICallMultipleTimes.java)|
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeRightSideView.java)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
