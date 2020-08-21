@@ -18,6 +18,7 @@ original description of the challenge.
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LetterCombinationsOfAPhoneNumber.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
