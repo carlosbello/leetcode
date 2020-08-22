@@ -23,6 +23,8 @@ original description of the challenge.
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
+|46|[Permutations](https://leetcode.com/problems/permutations/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/Permutations.java)|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationsII.java)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/GroupAnagrams.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
