@@ -21,6 +21,7 @@ original description of the challenge.
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LetterCombinationsOfAPhoneNumber.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DivideTwoIntegers.java)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/Permutations.java)|
