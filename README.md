@@ -29,7 +29,9 @@ original description of the challenge.
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationsII.java)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/GroupAnagrams.java)|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PowXN.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeIntervals.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddBinary.java)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|medium|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
@@ -76,9 +78,13 @@ original description of the challenge.
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CustomSortString.java)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
+|977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
+|1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
+|1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
