@@ -68,7 +68,9 @@ original description of the challenge.
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/properties.js)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ProductOfArrayExceptSelf.java)|
 |250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
+|256|[Paint House](https://leetcode.com/problems/paint-house/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintHouse.java)|
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
+|276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
