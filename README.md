@@ -73,6 +73,7 @@ original description of the challenge.
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumNumberOfArrowsToBurstBalloons.java)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
