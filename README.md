@@ -16,10 +16,12 @@ original description of the challenge.
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|easy|[JavaScript](./javascript/src/problems/two-sum.js)|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddTwoNumbers.java)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestPalindromicSubstring.java)|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LetterCombinationsOfAPhoneNumber.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeTwoSortedLists.java)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DivideTwoIntegers.java)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
@@ -73,6 +75,8 @@ original description of the challenge.
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
+|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
+|364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NestedListWeightSumII.java)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumNumberOfArrowsToBurstBalloons.java)|
@@ -83,6 +87,7 @@ original description of the challenge.
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CustomSortString.java)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumOfBST.java)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
