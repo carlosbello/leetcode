@@ -51,6 +51,7 @@ original description of the challenge.
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FlattenBinaryTreeToLinkedList.java)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[JavaScript](./javascript/src/problems/best-time-to-buy-and-sell-stock.js)|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStock.java)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidPalindrome.java)|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CloneGraph.java)|
@@ -75,6 +76,7 @@ original description of the challenge.
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NestedListWeightSumII.java)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
