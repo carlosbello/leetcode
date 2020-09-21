@@ -67,7 +67,9 @@ original description of the challenge.
 |157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReadNCharactersGivenRead4.java)|
 |158|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReadNCharactersGivenRead4IICallMultipleTimes.java)|
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/properties.kt)|
+|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/OneEditDistance.java)|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeRightSideView.java)|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfIslands.java)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/properties.js)|
