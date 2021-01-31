@@ -82,6 +82,7 @@ original description of the challenge.
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IntegerToEnglishWords.java)|
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MoveZeroes.java)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
