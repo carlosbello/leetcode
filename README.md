@@ -14,6 +14,7 @@ original description of the challenge.
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|easy|[JavaScript](./javascript/src/problems/two-sum.js)|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSum.java)|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddTwoNumbers.java)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestPalindromicSubstring.java)|
