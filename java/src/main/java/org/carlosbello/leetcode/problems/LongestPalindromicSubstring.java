@@ -77,4 +77,27 @@ public class LongestPalindromicSubstring {
 
         return longestPal;
     }
+
+    /**
+     * Another slow (but accepted) solution.
+     */
+    public String longestPalindrome3(String s) {
+        String longestPalindrome = s.substring(0, 1);
+        for (int start = 0; start < s.length() - longestPalindrome.length(); start++) {
+            StringBuilder currentWordBuilder = new StringBuilder();
+            StringBuilder reverseWordBuilder = new StringBuilder();
+            currentWordBuilder.append(s.charAt(start));
+            reverseWordBuilder.append(s.charAt(start));
+
+            for (int end = start + 1; end < s.length(); end++) {
+                currentWordBuilder.append(s.charAt(end));
+                reverseWordBuilder.insert(0, s.charAt(end));
+                String currentWord = currentWordBuilder.toString();
+                if (currentWord.equals(reverseWordBuilder.toString()) && currentWord.length() > longestPalindrome.length()) {
+                    longestPalindrome = currentWord;
+                }
+            }
+        }
+        return longestPalindrome;
+    }
 }

@@ -100,6 +100,7 @@ original description of the challenge.
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumOfBST.java)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
