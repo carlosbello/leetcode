@@ -19,6 +19,7 @@ original description of the challenge.
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestSubstringWithoutRepeatingCharacters.java)|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestPalindromicSubstring.java)|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/StringToIntegerAtoi.java)|
+|12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IntegerToRoman.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LetterCombinationsOfAPhoneNumber.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
@@ -100,6 +101,7 @@ original description of the challenge.
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CustomSortString.java)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumOfBST.java)|
+|957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PrisonCellsAfterNDays.java)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
