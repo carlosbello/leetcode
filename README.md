@@ -51,6 +51,7 @@ original description of the challenge.
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeZigzagLevelOrderTraversal.java)|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/operations.kt)|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/operations.kt)|
