@@ -113,6 +113,8 @@ original description of the challenge.
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
+|1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
+|1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RankTransformOfAnArray.java)|
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
