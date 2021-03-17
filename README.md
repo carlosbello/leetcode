@@ -36,6 +36,7 @@ original description of the challenge.
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/GroupAnagrams.java)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PowXN.java)|
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SpiralMatrixII.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeIntervals.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddBinary.java)|
@@ -109,6 +110,7 @@ original description of the challenge.
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RottingOranges.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDiceRollsWithTargetSum.java)|
