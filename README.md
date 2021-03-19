@@ -93,10 +93,12 @@ original description of the challenge.
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfConnectedComponentsInAnUndirectedGraph.java)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
+|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MovingAverageFromDataStream.java)|
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NestedListWeightSumII.java)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumNumberOfArrowsToBurstBalloons.java)|
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReverseStringII.java)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
@@ -113,6 +115,7 @@ original description of the challenge.
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RottingOranges.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
+|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfEquivalentDominoPairs.java)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDiceRollsWithTargetSum.java)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
