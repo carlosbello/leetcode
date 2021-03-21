@@ -63,6 +63,7 @@ original description of the challenge.
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStock.java)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidPalindrome.java)|
+|126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/WordLadderII.java)|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/WordLadder.java)|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CloneGraph.java)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|easy|[JavaScript](./javascript/src/problems/single-number.js)|
