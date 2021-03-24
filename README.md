@@ -122,6 +122,7 @@ original description of the challenge.
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfEquivalentDominoPairs.java)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDiceRollsWithTargetSum.java)|
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindWordsThatCanBeFormedByCharacters.java)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
