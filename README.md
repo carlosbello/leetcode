@@ -51,6 +51,7 @@ original description of the challenge.
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ValidateBinarySearchTree.java)|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SymmetricTree.java)|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/traversals.kt)|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeLevelOrderTraversal.java)|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BinaryTreeZigzagLevelOrderTraversal.java)|
