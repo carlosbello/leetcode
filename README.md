@@ -122,6 +122,7 @@ original description of the challenge.
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfEquivalentDominoPairs.java)|
+|1133|Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LargestUniqueNumber.java)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDiceRollsWithTargetSum.java)|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindWordsThatCanBeFormedByCharacters.java)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|

@@ -33,4 +33,26 @@ public class LongestValidParentheses {
 
         return longest;
     }
+
+    /**
+     * Slower but simpler and accepted solution
+     */
+    public int longestValidParentheses2(String s) {
+        int start = 0;
+        int longest = 0;
+
+        while (start + longest < s.length()) {
+            int value = s.charAt(start) == '(' ? 1 : -1;
+            for (int end = start + 1; end < s.length() && value >= 0; end++) {
+                value += s.charAt(end) == '(' ? 1 : -1;
+                if (value == 0 && end - start + 1 > longest) {
+                    longest = end - start + 1;
+                }
+            }
+
+            start++;
+        }
+
+        return longest;
+    }
 }
