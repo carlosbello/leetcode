@@ -84,6 +84,7 @@ original description of the challenge.
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|easy|[JavaScript](./javascript/src/problems/happy-number.js)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/properties.js)|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PalindromeLinkedList.java)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LowestCommonAncestorOfABinaryTree.java)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ProductOfArrayExceptSelf.java)|
 |250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
@@ -102,6 +103,7 @@ original description of the challenge.
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumNumberOfArrowsToBurstBalloons.java)|
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/OnesAndZeroes.java)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReverseStringII.java)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
