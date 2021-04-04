@@ -106,6 +106,7 @@ original description of the challenge.
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DesignCircularQueue.java)|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PartitionLabels.java)|
