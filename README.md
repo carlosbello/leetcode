@@ -135,6 +135,7 @@ original description of the challenge.
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumOperationsToMakeArrayEqual.java)|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineColorOfAChessboardSquare.java)|
 |1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SentenceSimilarityIII.java)|
 |1814|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CountNicePairsInAnArray.java)
