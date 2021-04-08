@@ -94,6 +94,7 @@ original description of the challenge.
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PaintFence.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[JavaScript](./javascript/src/problems/move-zeroes.js)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MoveZeroes.java)|
+|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/InorderSuccessorInBST.java)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfConnectedComponentsInAnUndirectedGraph.java)|
