@@ -118,6 +118,7 @@ original description of the challenge.
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MostCommonWord.java)|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumOfBST.java)|
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/VerifyingAnAlienDictionary.java)|
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PrisonCellsAfterNDays.java)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
