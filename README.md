@@ -99,6 +99,7 @@ original description of the challenge.
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfConnectedComponentsInAnUndirectedGraph.java)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestIncreasingPathInAMatrix.java)|
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MovingAverageFromDataStream.java)|
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NestedListWeightSumII.java)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IsSubsequence.java)|
