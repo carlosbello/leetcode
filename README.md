@@ -134,6 +134,7 @@ original description of the challenge.
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
+|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeepestLeavesSum.java)|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RankTransformOfAnArray.java)|
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
