@@ -129,6 +129,7 @@ original description of the challenge.
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RottingOranges.java)|
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SumOfRootToLeafBinaryNumbers.java)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfEquivalentDominoPairs.java)|
@@ -138,6 +139,7 @@ original description of the challenge.
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
+|1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SynonymousSentences.java)|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeepestLeavesSum.java)|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RankTransformOfAnArray.java)|
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
