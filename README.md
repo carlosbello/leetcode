@@ -44,6 +44,7 @@ original description of the challenge.
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumWindowSubstring.java)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|medium|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
+|86|[Partition List](https://leetcode.com/problems/partition-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PartitionList.java)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeSortedArray.java)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DecodeWays.java)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|medium|[JavaScript](./javascript/src/data-structures/binary-tree/traversals.js)|
