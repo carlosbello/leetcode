@@ -61,6 +61,7 @@ original description of the challenge.
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|medium|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/operations.kt)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/datastructures/binarytree/properties.kt)|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FlattenBinaryTreeToLinkedList.java)|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PopulatingNextRightPointersInEachNode.java)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[JavaScript](./javascript/src/problems/best-time-to-buy-and-sell-stock.js)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStock.java)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BestTimeToBuyAndSellStockII.java)|
