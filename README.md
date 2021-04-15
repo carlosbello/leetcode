@@ -109,6 +109,7 @@ original description of the challenge.
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|easy|[Kotlin](./kotlin/src/main/kotlin/org/carlosbello/strings/operations.kt)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumNumberOfArrowsToBurstBalloons.java)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/OnesAndZeroes.java)|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FibonacciNumber.java)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReverseStringII.java)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
@@ -133,7 +134,8 @@ original description of the challenge.
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|easy|[JavaScript](./javascript/src/data-structures/string/operations.js)|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfEquivalentDominoPairs.java)|
-|1133|Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LargestUniqueNumber.java)|
+|1133|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LargestUniqueNumber.java)|
+|1151|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumSwapsToGroupAll1sTogether.java)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDiceRollsWithTargetSum.java)|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindWordsThatCanBeFormedByCharacters.java)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
