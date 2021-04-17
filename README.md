@@ -140,6 +140,7 @@ original description of the challenge.
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindWordsThatCanBeFormedByCharacters.java)|
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|easy|[JavaScript](./javascript/src/problems/diet-plan-performance.js)|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
+|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveAllAdjacentDuplicatesInStringII.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SynonymousSentences.java)|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeepestLeavesSum.java)|
