@@ -23,6 +23,7 @@ original description of the challenge.
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/IntegerToRoman.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RomanToInteger.java)|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LetterCombinationsOfAPhoneNumber.java)|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveNthNodeFromEndOfList.java)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[JavaScript](./javascript/src/data-structures/linked-list/operations.js)|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeTwoSortedLists.java)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveDuplicatesFromSortedArray.java)|
