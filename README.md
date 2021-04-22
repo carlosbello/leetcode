@@ -113,6 +113,7 @@ original description of the challenge.
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/OnesAndZeroes.java)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FibonacciNumber.java)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/ReverseStringII.java)|
+|554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BrickWall.java)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
@@ -145,6 +146,7 @@ original description of the challenge.
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CriticalConnectionsInANetwork.java)|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveAllAdjacentDuplicatesInStringII.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
+|1228|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MissingNumberInArithmeticProgression.java)|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SynonymousSentences.java)|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeepestLeavesSum.java)|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RankTransformOfAnArray.java)|
