@@ -34,6 +34,7 @@ original description of the challenge.
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/Permutations.java)|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationsII.java)|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|medium|[Java](./https://leetcode.com/problems/rotate-image/)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[JavaScript](./javascript/src/problems/group-anagrams.js)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/GroupAnagrams.java)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PowXN.java)|
