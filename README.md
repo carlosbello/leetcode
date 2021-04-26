@@ -156,6 +156,7 @@ original description of the challenge.
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumOperationsToMakeArrayEqual.java)|
+|1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FurthestBuildingYouCanReach.java)|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineIfStringHalvesAreAlike.java)|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineColorOfAChessboardSquare.java)|
 |1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SentenceSimilarityIII.java)|
