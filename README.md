@@ -41,6 +41,7 @@ original description of the challenge.
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SpiralMatrixII.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|easy|[JavaScript](./javascript/src/problems/maximum-subarray.js)|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MergeIntervals.java)|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/UniquePathsII.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/AddBinary.java)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|medium|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumWindowSubstring.java)|
