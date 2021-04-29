@@ -31,6 +31,7 @@ original description of the challenge.
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NextPermutation.java)|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LongestValidParentheses.java)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SearchInRotatedSortedArray.java)|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindFirstAndLastPositionOfElementInSortedArray.java)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/Permutations.java)|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationsII.java)|
@@ -151,6 +152,7 @@ original description of the challenge.
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveAllAdjacentDuplicatesInStringII.java)|
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/TwoSumBSTs.java)|
 |1228|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MissingNumberInArithmeticProgression.java)|
+|1229|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MeetingScheduler.java)|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SynonymousSentences.java)|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeepestLeavesSum.java)|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RankTransformOfAnArray.java)|
