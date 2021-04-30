@@ -136,6 +136,7 @@ original description of the challenge.
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/VerifyingAnAlienDictionary.java)|
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PrisonCellsAfterNDays.java)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|easy|[JavaScript](./javascript/src/problems/univalued-binary-tree.js)|
+|970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PowerfulIntegers.java)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/KClosestPointsToOrigin.java)|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SquaresOfASortedArray.java)|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RottingOranges.java)|
