@@ -123,6 +123,7 @@ original description of the challenge.
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NAryTreePreorderTraversal.java)|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DesignCircularQueue.java)|
+|630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CourseScheduleIII.java)|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BeautifulArrangementII.java)|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CountBinarySubstrings.java)|
