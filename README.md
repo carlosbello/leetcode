@@ -127,6 +127,7 @@ original description of the challenge.
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/BeautifulArrangementII.java)|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CountBinarySubstrings.java)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/operations.js)|
+|745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PrefixAndSuffixSearch.java)|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PartitionLabels.java)|
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CustomSortString.java)|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/solution/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RectangleOverlap.java)|
