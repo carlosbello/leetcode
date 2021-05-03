@@ -162,6 +162,7 @@ original description of the challenge.
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfDaysBetweenTwoDates.java)|
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|easy|[JavaScript](./javascript/src/problems/counting-elements.js)|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
+|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RunningSumOf1dArray.java)|
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumOperationsToMakeArrayEqual.java)|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FurthestBuildingYouCanReach.java)|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineIfStringHalvesAreAlike.java)|
