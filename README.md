@@ -33,6 +33,7 @@ original description of the challenge.
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SearchInRotatedSortedArray.java)|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FindFirstAndLastPositionOfElementInSortedArray.java)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MultiplyStrings.java)|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/JumpGameII.java)|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/Permutations.java)|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationsII.java)|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|medium|[Java](./https://leetcode.com/problems/rotate-image/)|
