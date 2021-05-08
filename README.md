@@ -137,6 +137,7 @@ original description of the challenge.
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/solution/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RectangleOverlap.java)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|easy|[JavaScript](./javascript/src/data-structures/array/operations.js)|
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MostCommonWord.java)|
+|906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SuperPalindromes.java)|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumOfBST.java)|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/VerifyingAnAlienDictionary.java)|
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PrisonCellsAfterNDays.java)|
@@ -167,6 +168,7 @@ original description of the challenge.
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/LeftmostColumnWithAtLeastAOne.java)|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RunningSumOf1dArray.java)|
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MinimumOperationsToMakeArrayEqual.java)|
+|1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PutBoxesIntotheWarehouseI.java)|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/FurthestBuildingYouCanReach.java)|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineIfStringHalvesAreAlike.java)|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DetermineColorOfAChessboardSquare.java)|
