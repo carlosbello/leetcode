@@ -106,6 +106,7 @@ original description of the challenge.
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/InorderSuccessorInBST.java)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RemoveInvalidParentheses.java)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQueryImmutable.java)|
+|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/RangeSumQuery2DImmutable.java)|
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NumberOfConnectedComponentsInAnUndirectedGraph.java)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/MaximumSizeSubarraySumEqualsK.java)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PowerOfThree.java)|
