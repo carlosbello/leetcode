@@ -124,7 +124,7 @@ original description of the challenge.
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/SubarraySumEqualsK.java)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/PermutationInString.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|easy|[JavaScript](./javascript/src/data-structures/binary-tree/properties.js)|
-|583[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeleteOperationForTwoStrings.java)|
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DeleteOperationForTwoStrings.java)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|easy|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/NAryTreePreorderTraversal.java)|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|medium|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/DesignCircularQueue.java)|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|hard|[Java](./java/src/main/java/org/carlosbello/leetcode/problems/CourseScheduleIII.java)|
